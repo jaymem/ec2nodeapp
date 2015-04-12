@@ -25,7 +25,7 @@ var express   = require('express');
 var app       = express();
 
 var config = {
-	"USER"     : "",                  // if your database has user/pwd defined
+	"USER"     : "bitnami",                  // if your database has user/pwd defined
 	"PASS"     : "",
 	"HOST"     : "ec2-52-1-169-28.compute-1.amazonaws.com",  // the domain name of our MongoDB EC2 instance
 	"PORT"     : "27017",             // this is the default port mongoDB is listening for incoming queries
